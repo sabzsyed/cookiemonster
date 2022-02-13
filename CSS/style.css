@@ -1,0 +1,61 @@
+/* 
+
+Project Name: Educate Learning
+Author: Sabz Syed | www.twitter.com/sabzsyed1 | www.educatelearning.com 
+Developed @ Sabz in the world
+
+*/
+
+body {
+	height= 100vh;
+	background: url('../Images/es.png');
+	/*background: url('../images/es.png');*/
+	/* the follow is the code to have the image display as a full page */
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#container {
+
+	background:  black;
+	width:  424px;
+	color: white;
+	padding:  15px;
+
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	background: skyblue;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+/*
+.iframe-contrainer{
+	position:  relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+.iframe-container iframe{
+	position:  absolute;
+	top:  0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
